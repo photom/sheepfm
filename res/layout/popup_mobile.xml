@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:gravity="fill"
+android:id="@+id/layout_root"
+android:background="#000000"
+>
+
+<ProgressBar
+android:layout_width="fill_parent"
+android:layout_height="5dip"
+android:layout_alignParentTop="true"
+style="?android:attr/progressBarStyleHorizontal"
+android:id="@+id/progressbarMobile"
+android:max="100"
+android:background="#228b22"
+/>
+
+</RelativeLayout>

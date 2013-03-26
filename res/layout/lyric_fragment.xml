@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitsuji.radio"
+    android:id="@+id/tab_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <WebView 
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/empty_view"
+        android:layout_alignParentTop="true"
+        android:id="@+id/webview"/>
+    
+    <include
+        android:id="@+id/empty_view"
+        android:layout_alignParentBottom="true"
+        layout="@layout/empty_view" />    
+</RelativeLayout>

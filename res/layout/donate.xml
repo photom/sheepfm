@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/donate_layout"
+    android:gravity="center_horizontal"
+    android:background="@android:color/white">
+    <ImageView
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentTop="true"
+    	android:layout_above="@+id/donate_lan_layout"
+    	android:layout_marginBottom="10sp"
+    	android:src="@drawable/msg"
+    	android:layout_centerHorizontal="true"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:layout_centerInParent="true"
+    	android:layout_marginBottom="15sp"
+    	android:id="@+id/donate_lan_layout">
+    	<TextView 
+    	    android:textColor="#00008b"
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="@string/donate_language_txt" />
+	    <Spinner android:id="@+id/donate_lan_spinner"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:paddingLeft="30sp"
+	    	android:background="@xml/ic_btn_donate_back">
+	    </Spinner>
+	</LinearLayout>
+    <Button android:id="@+id/donate_cancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/donate_cancel"
+        android:layout_marginTop="30sp"
+		android:background="@xml/ic_btn_donate_back"
+        />
+</RelativeLayout>

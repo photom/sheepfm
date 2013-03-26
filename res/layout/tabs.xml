@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabs"
+    style="@style/Tabs"
+    android:layout_width="@dimen/tab_item_width"
+    android:layout_height="@dimen/bottom_action_bar_height"
+    android:paddingRight="@dimen/tab_padding_left_right"
+    android:paddingLeft="@dimen/tab_padding_left_right"
+    android:background="#00000000" 
+    android:scaleType="fitXY"
+    />

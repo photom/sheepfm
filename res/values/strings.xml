@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, HitsujiRadio!</string>
+    <string name="app_name">Sheep.fm</string>
+    <string name="token">Store Token</string>
+    <string name="reqauth">Request Authorization</string>
+	<string name="sk">Store Session Key</string>
+	<string name="send">Login to</string>
+	<string name="hint_user">User Name</string>
+	<string name="hint_pass">Password</string>
+	<string name="poweredby">Powered by</string>
+	<string name="donate_cancel">Back</string>
+	<string name="donate_language_txt">PayPal Language:</string>
+	
+    <!-- Tabs -->
+    <string name="tab_jacket">JACKET</string>
+    <string name="tab_desc">DESC</string>
+    <string name="tab_lyrics">LYRICS</string>
+    <string name="tab_shout">SHOUT</string>
+    <string name="tab_similar">SIMILAR</string>
+    
+    <!-- bottom action bar -->
+    <string name="bab_love">LOVE</string>
+    <string name="bab_dislike">DISLIKE</string>
+    <string name="bab_stop">STOP</string>
+    <string name="bab_next">NEXT</string>
+    
+    <string-array name="donate_languages">
+		<item>Chinese (Hong Kong)</item>
+		<item>Chinese (Taiwan)</item>
+		<item>Dutch (Belgium)</item>
+		<item>Dutch (Netherlands)</item>
+		<item>English (Australia)</item>
+		<item>English (Belgium)</item>
+		<item>English (Canada)</item>
+		<item>English (France)</item>
+		<item>English (Germany)</item>
+		<item>English (Great Britain)</item>
+		<item>English (Hong Kong)</item>
+		<item>English (India)</item>
+		<item>English (Mexico)</item>
+		<item>English (Netherlands)</item>
+		<item>English (Poland)</item>
+		<item>English (Singapore)</item>
+		<item>English (Spain)</item>
+		<item>English (Switzerland)</item>
+		<item>English (Taiwan)</item>
+		<item>English (United States)</item>
+		<item>French (Belgium)</item>
+		<item>French (Canada)</item>
+		<item>French (France)</item>
+		<item>French (Switzerland)</item>
+		<item>German (Austria)</item>
+		<item>German (Germany)</item>
+		<item>German (Switzerland)</item>
+		<item>Italian (Italy)</item>
+		<item>Spanish (Argentina)</item>
+		<item>Spanish (Mexico)</item>
+		<item>Spanish (Spain)</item>
+		<item>Polish (Poland)</item>
+		<item>Portuguese (Brazil)</item>
+	</string-array>
+</resources>

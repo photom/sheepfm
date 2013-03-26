@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_action_bar_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_action_bar_height"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+    <com.andrew.apollo.ui.widgets.BottomActionBar
+        android:id="@+id/bottom_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/holo_selector"
+        android:orientation="horizontal" >
+        <com.andrew.apollo.ui.widgets.BottomActionBarItem
+            android:id="@+id/heart_img"
+            style="@style/BottomActionBarItem"
+            android:contentDescription="@string/bab_love"
+            android:src="@drawable/heart" />
+        <com.andrew.apollo.ui.widgets.BottomActionBarItem
+            android:id="@+id/cross_img"
+            style="@style/BottomActionBarItem"
+            android:contentDescription="@string/bab_dislike"
+            android:src="@drawable/cross" />
+        <com.andrew.apollo.ui.widgets.BottomActionBarItem
+            android:id="@+id/stop_img"
+            style="@style/BottomActionBarItem"
+            android:contentDescription="@string/bab_stop"
+            android:src="@drawable/stop" />        
+        <com.andrew.apollo.ui.widgets.BottomActionBarItem
+            android:id="@+id/next_img"
+            style="@style/BottomActionBarItem"
+            android:contentDescription="@string/bab_next"
+            android:src="@drawable/next" />
+	</com.andrew.apollo.ui.widgets.BottomActionBar>
+</LinearLayout>
