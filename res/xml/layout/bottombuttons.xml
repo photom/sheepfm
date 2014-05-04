@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:id="@+id/inner_tab" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/bottombuttons">
+       
+    <ImageButton android:id="@+id/heart_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom"
+		android:background="#000000"
+		android:scaleType="fitCenter"
+		style="@style/btn_like"/>
+    <ImageButton android:id="@+id/cross_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom"
+		android:background="#000000"
+		android:scaleType="fitCenter"
+		style="@style/btn_dislike"/>
+    <ImageButton android:id="@+id/stop_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom"
+		android:background="#000000"		
+		android:scaleType="fitCenter"
+		style="@style/btn_stop"/>
+    <ImageButton android:id="@+id/next_img"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="bottom"
+		android:background="#000000"		
+		android:scaleType="fitCenter"
+		style="@style/btn_next"/>
+</LinearLayout>
+</RelativeLayout>

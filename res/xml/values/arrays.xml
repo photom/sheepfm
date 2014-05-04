@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+     <string-array name="tab_titles">
+        <item>@string/tab_jacket</item>
+        <item>@string/tab_desc</item>
+        <item>@string/tab_lyrics</item>
+        <item>@string/tab_shout</item>
+        <item>@string/tab_similar</item>
+    </string-array>
+
+</resources>

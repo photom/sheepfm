@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   	<EditText android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:id="@+id/user"
+       	android:inputType="text"
+        android:hint="@string/hint_user"/>
+   	<EditText android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:id="@+id/pass"
+       	android:inputType="textPassword"
+        android:hint="@string/hint_pass"/>
+   	<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+	    <Button
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:id="@+id/send"
+	        android:text="@string/send" />
+	    <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/logo"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@+id/send"
+	        android:background="@drawable/lastfm_white"
+	        ></ImageView>
+    </RelativeLayout>
+</LinearLayout>

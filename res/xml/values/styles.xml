@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom tabs -->
+    <style name="Tabs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/bottom_action_bar_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/tab_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/tab_padding_left_right</item>
+        <!-- 
+        <item name="android:paddingTop">@dimen/tab_padding_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/tab_padding_top_bottom</item>
+         -->        
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/text_size_micro</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:selectAllOnFocus">false</item>
+    </style>
+    <!-- ImageButton in the bottom bar -->
+    <style name="BottomActionBarItem">
+        <item name="android:layout_width">@dimen/bottom_action_bar_item_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">@dimen/bottom_action_bar_item_padding_left_right</item>
+        <item name="android:paddingRight">@dimen/bottom_action_bar_item_padding_left_right</item>
+        <item name="android:background">@drawable/holo_selector</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center|right</item>
+    </style>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+  <PreferenceCategory android:title="Last.fm Settings">
+	<PreferenceScreen
+	  android:title="Loggin"
+	  android:key="lastfmaccount"
+	  android:summary="">
+		<intent  
+		    android:action="android.intent.action.MAIN"  
+		    android:targetPackage="com.hitsuji.radio"  
+		 	 android:targetClass="com.hitsuji.radio.HitsujiRadioMobileActivity"/>
+	</PreferenceScreen>
+    <CheckBoxPreference  
+      android:key="scrobble"  
+      android:title="Scrobble"
+      android:persistent="true"
+      android:defaultValue="false"
+      />
+  </PreferenceCategory>
+  <PreferenceCategory android:title="Play Mode">
+    <CheckBoxPreference  
+      android:key="shuffle"  
+      android:title="Shuffle"
+      android:persistent="true"
+      android:defaultValue="false"
+      />
+  </PreferenceCategory>
+  <PreferenceCategory android:title="Search words for Lyrics">  
+    <CheckBoxPreference  
+      android:key="artist"  
+      android:title="Artist Name"
+      android:persistent="true"
+      android:defaultValue="true"      
+      android:summary="Whether including artist in search box" />  
+    <CheckBoxPreference  
+      android:key="title"  
+      android:title="Track Title"
+      android:persistent="true"
+      android:defaultValue="true"
+      android:summary="Whether including title in search box" />        
+    <EditTextPreference  
+      android:key="keyword"  
+      android:title="Word"  
+      android:summary="Word included in serach box"  
+      android:dialogTitle="Keyword"
+      android:persistent="true"
+      android:defaultValue="Lyrics"
+      android:dialogMessage="Search Words for Lyrics" />  
+  </PreferenceCategory>  
+  <!-- 
+	<PreferenceCategory
+	      android:title="Facebook">
+	  <PreferenceScreen
+	          android:title="Authentication"
+	          android:summary="Authorize this app.">
+	      <intent  
+	          android:action="android.intent.action.MAIN"  
+    	      android:targetPackage="com.hitsuji.radio"  
+        	  android:targetClass="com.hitsuji.radio.pref.FacebookActivationActivity"/>  
+	  </PreferenceScreen>
+	</PreferenceCategory>
+       -->
+   <PreferenceCategory android:title="Configure">
+    <CheckBoxPreference  
+      android:key="image_cache"  
+      android:title="Artist Images"
+      android:persistent="true"
+      android:defaultValue="false"
+      android:summary="Use only cached images in storage when network is MOBILE or disconnected."/>
+  </PreferenceCategory>  
+  <PreferenceCategory android:title="Account">
+    <com.hitsuji.radio.pref.AccountDialogPreference
+        android:id="@+id/AccountDialogPreference"
+		android:key="accountclear" 
+		android:title="Clear Login Data"
+        android:persistent="true"		
+		android:summary="Clear login data and exit">
+	</com.hitsuji.radio.pref.AccountDialogPreference>
+      
+  </PreferenceCategory>
+
+  <!-- 
+  <PreferenceCategory
+      android:title="Other">
+	  <PreferenceScreen
+	          android:title="Donation"
+	          android:summary="">
+	      <intent  
+	          android:action="android.intent.action.MAIN"  
+	   	      android:targetPackage="com.hitsuji.radio"  
+	       	  android:targetClass="com.hitsuji.radio.HitsujiRadioDonateActivity"/>  
+	  </PreferenceScreen>
+	</PreferenceCategory>
+       -->
+</PreferenceScreen>

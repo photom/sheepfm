@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.hitsuji.radio"
+    android:id="@+id/tab_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.devsmart.android.ui.HorizontalListView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:id="@+id/jacket_layout"/>
+    <TextView 
+       android:id="@+id/jacket_artist"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="right"
+       android:layout_above="@+id/empty_view"/>
+    <TextView 
+       android:id="@+id/jacket_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="right"
+       android:layout_above="@+id/jacket_artist"/>
+    <TextView
+       android:id="@+id/jacket_timer"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="right"
+       android:layout_above="@+id/jacket_title"/>    
+    <include
+        android:id="@+id/empty_view"
+        android:layout_alignParentBottom="true"
+        layout="@layout/empty_view" />
+
+</RelativeLayout>
